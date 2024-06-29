@@ -1,0 +1,46 @@
+Tabel 1 (biodata_pelamar)
+
+1. id_biodata
+2. Posisi yang dilamar
+3. nama
+4. no_ktp
+5. ttl
+6. jenis_kelamin
+7. agama
+8. golongan darah
+9. status
+10. alamat_ktp
+11. alamat_tinggal
+12. email
+13. no_telepon
+14. orang_terdekat
+15. has many ke tabel pendidikan_pelamar (Tidak dimasukan ke dalam column di tabel)
+16. has many ke tabel riwayat_pelatihan_pelamar (Tidak dimasukan ke dalam column di tabel)
+17. has many ke tabel riwayat_pekerjaan_pelamar (Tidak dimasukan ke dalam column di tabel)
+18. skill
+19. penempatan_karyawan (ya/tidak)
+20. penghasilan_yang_diharapkan
+
+Tabel 2 (pendidikan_pelamar)
+
+1. id_biodata
+2. jenjang_pendidikan_terakhir (SD,SMP,SMA/SMK,DIPLOMA,SARJANA) Bikin Kondisi Maksimal 5 Jenis Data Pendidikan Terakhir yang di input
+3. nama_instusi_akademik
+4. jurusan
+5. tahun_lulus
+6. ipk
+
+Tabel 3 (riwayat_pelatihan_pelamar)
+
+1. id_biodata
+2. nama_kursus
+3. sertifikat (ada/tidak)
+4. tahun
+
+Tabel 4 (riwayat_pekerjaan_pelamar)
+
+1. id_biodata
+2. nama_perusahaan
+3. posisi_terakhir
+4. pendapatan_terakhir
+5. tahun
